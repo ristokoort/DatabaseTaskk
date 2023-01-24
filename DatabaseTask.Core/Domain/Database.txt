@@ -1,0 +1,153 @@
+﻿insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),1,'Bones')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),1,'Bones')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),2,'Bones')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),3,'Regular')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),4,'Bones')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),5,'FastResponse')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),6,'Bones')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),7,'FastResponse')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),8,'Bones')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),9,'Regular')
+insert into Department (Id,DepartmentNumber,DepartmentType)
+Values(newid(),10,'Regular')
+
+
+-----Hospital
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Tallinn','Saint Juves')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Harjumaa','Harjumaa Haigla')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Mustamäetee','Tallinna Haigla')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Kiili','Kiili Haigla')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Mustamäetee','Saint Juves')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Mustamäetee','Mustamäe Haigla')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Tallinn','Tallina Haigla')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Tartu','Tartu Haigla')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'RandomAddress','Pärnu haigla')
+
+insert into Hospital (Id,Address,Name)
+Values(newid(),'Random','Saint Juves')
+
+
+----Nurse
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Desislava','Rein','Desislava@Rein.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Margret','Marcella','Margret@Marcella.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Gaia','Paulo','Gaia@Paulo.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Chikumbutso','Slávka','Chikumbutso@Slávka.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Petra',' Geghard','Petra@Geghard.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Kawacatoose ','Stefania','Kawacatoose@Stefania.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Almast ','Swarna','Almast@Swarna.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Hwan','Gaiana','Hwan@Gaiana.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Shiva','Turin','Shiva@Turin.com')
+
+insert into Nurse(Id,FirstName,LastName,Email)
+Values(newid(),'Cerere','Eleutério','Cerere@Eleutério.com')
+
+
+----Patient
+select * from Patient
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Karl',677-3556,'09/28/96','3296 Lamberts Branch Road','Present')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Martin',370-9259,'10/17/05','953 Marshall Street','Present')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Mihkel',379-9597,'11/27/19','4622 Bassel Street','Absent')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Hendrik',280-7751,'12/01/20','3315 Rodney Street','Present')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Hendri',455-4673,'11/12/18','529 Willis Avenue','Absent')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Joosep',407-5233,'10/16/06','1628 Hillcrest Avenue','Absent')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Kalev',735-9684,'03/18/07','532 Peaceful Lane','Present')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Margus',724-3368,'03/06/03','2684 Spinnaker Lane','Absent')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Hannes',467-0505,'03/29/10','304 Locust Street','Present')
+
+insert into Patient(Id,Name,TelephoneNumber,DateOfBirth,Address,PatientPresence)
+values(newid(),'Martin',782-5695,'06/01/14','1243 Milford Street','Absent')
+
+
+----ward
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),1,10)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),2,5)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),3,4)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),4,2)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),5,15)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),6,17)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),7,25)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),8,10)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),9,22)
+
+insert into Ward(Id,WardRoomNumber,WardBedAmount)
+values(newid(),10,19)
